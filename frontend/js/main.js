@@ -1,0 +1,1 @@
+console.log("Leaflet versión:", L.version);
