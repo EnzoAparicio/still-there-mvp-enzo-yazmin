@@ -1,5 +1,5 @@
 const express = require('express');
-const { openDb } = require('./db');
+const { openDb } = require('./db/db');
 
 const app = express();
 const PORT = 3000;

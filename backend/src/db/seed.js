@@ -1,5 +1,5 @@
 const { openDb } = require('./db');
-const machines = require('../data/machines.json');
+const machines = require('../../data/machines.json');
 
 function seed(db) {
   const insertMachine = db.prepare(`
