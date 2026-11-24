@@ -18,6 +18,6 @@ fetch("data/machines.mock.json")
     machines
       .filter((machine) => machine.world === "moon")
       .forEach((machine) => {
-        L.marker([machine.lat, machine.lng]).addTo(map);
+        L.marker([machine.lat, machine.lng]).addTo(map).bindPopup(machine.name.es);
       });
   });
