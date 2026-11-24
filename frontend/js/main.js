@@ -11,3 +11,13 @@ L.tileLayer(
 ).addTo(map);
 
 map.setView([0, 0], 1);
+
+fetch("data/machines.mock.json")
+  .then((response) => response.json())
+  .then((machines) => {
+    machines
+      .filter((machine) => machine.world === "moon")
+      .forEach((machine) => {
+        L.marker([machine.lat, machine.lng]).addTo(map);
+      });
+  });
