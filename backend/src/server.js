@@ -1,7 +1,9 @@
 const express = require('express');
+const { openDb } = require('./db');
 
 const app = express();
 const PORT = 3000;
+const db = openDb();
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
