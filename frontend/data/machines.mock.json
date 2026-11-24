@@ -1,41 +1,33 @@
 [
   {
-    "id": "apollo11-retroreflector",
-    "world": "moon",
-    "name": {
-      "es": "Retrorreflector láser del Apolo 11",
-      "en": "Apollo 11 Laser Retroreflector"
-    },
-    "lat": 0.674,
-    "lng": 23.473
+  "id": "apollo11-lrrr",
+  "world": "moon",
+  "name_es": "Retrorreflector láser del Apolo 11",
+  "name_en": "Apollo 11 Laser Retroreflector",
+  "lat": 0.674,
+  "lng": 23.473
   },
   {
     "id": "apollo15-lrv",
     "world": "moon",
-    "name": {
-      "es": "Rover lunar del Apolo 15",
-      "en": "Apollo 15 Lunar Roving Vehicle"
-    },
+    "name_es": "Rover lunar del Apolo 15",
+    "name_en": "Apollo 15 Lunar Roving Vehicle",
     "lat": 26.132,
     "lng": 3.640
   },
   {
     "id": "opportunity",
     "world": "mars",    
-    "name": {
-      "es": "Rover Opportunity",
-      "en": "Opportunity Rover"
-    },
+    "name_es": "Rover Opportunity",
+    "name_en": "Opportunity Rover",
     "lat": -2.335,
     "lng": -5.348
   },
    {
         "id": "ingenuity",
         "world": "mars",
-        "name": {
-        "es": "Helicóptero Ingenuity",
-        "en": "Ingenuity Mars Helicopter"
-        },
+        "name_es": "Helicóptero Ingenuity",
+        "name_en": "Ingenuity Mars Helicopter",
         "lat": 18.44,
         "lng": 77.45
     }
