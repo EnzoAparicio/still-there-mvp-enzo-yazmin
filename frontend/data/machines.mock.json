@@ -20,14 +20,14 @@
     "lng": 3.640
   },
   {
-    "id": "apollo15-lrv",
-    "world": "moon",
+    "id": "opportunity",
+    "world": "mars",    
     "name": {
-      "es": "Rover lunar del Apolo 15",
-      "en": "Apollo 15 Lunar Roving Vehicle"
+      "es": "Rover Opportunity",
+      "en": "Opportunity Rover"
     },
-    "lat": 26.132,
-    "lng": 3.640
+    "lat": -2.335,
+    "lng": -5.348
   },
    {
         "id": "ingenuity",
