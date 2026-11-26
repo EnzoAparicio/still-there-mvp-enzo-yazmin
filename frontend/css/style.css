@@ -2,6 +2,58 @@ body {
   margin: 0;
 }
 
-#map {
+#map { 
   height: 100vh;
+}
+
+.hidden { /* clase para ocultar elementos */
+  display: none !important;
+}
+
+#home { /* pantalla de inicio */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(160deg, #5B2EFF, #2DA8FF);
+  color: white;
+  font-family: Nunito, sans-serif;
+}
+
+#home h1 { /* título "Still There" */
+  font-family: Fredoka, sans-serif;
+  font-size: 80px;
+  margin: 0;
+  text-shadow: 0 6px 0 #1B1340;
+}
+
+#home h1 span { /* palabra "There" */
+  color: #FFD23F;
+}
+
+#home p { /* Elegí un mundo para explorar */
+  font-size: 22px;
+}
+
+#home button { /* botones Luna y Marte */
+  font-family: Fredoka, sans-serif;
+  font-size: 26px;
+  margin: 10px;
+  padding: 18px 36px;
+  border: 4px solid #1B1340;
+  border-radius: 20px;
+  background: #FFD23F;
+  color: #1B1340;
+  box-shadow: 0 6px 0 #1B1340;
+  cursor: pointer;
+}
+
+#home button[data-world="mars"] { /* botón Marte */
+  background: #FF5C7A;
+}
+
+#home button:hover { /* efecto de rebote  al pasar el mouse */
+  transform: translateY(-3px);
 }
