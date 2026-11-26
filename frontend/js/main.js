@@ -5,6 +5,9 @@ const map = L.map("map", {
   zoomSnap: 0.5
 });
 
+const home = document.getElementById("home");
+const mapDiv = document.getElementById("map");
+
 L.tileLayer(
   "https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/default/default028mm/{z}/{y}/{x}.jpg",
   { noWrap: true, maxNativeZoom: 5, bounds: [[-90, -180], [90, 180]] }
@@ -19,3 +22,12 @@ fetch("api/machines?world=moon")
       L.marker([machine.lat, machine.lng]).addTo(map).bindPopup(machine.name.es);
     });
   });
+
+document.querySelectorAll("[data-world]").forEach((button) => {
+  button.addEventListener("click", () => {
+    home.classList.add("hidden");
+    mapDiv.classList.remove("hidden");
+    map.invalidateSize();
+    map.setView([0, 0], 1);
+  });
+});

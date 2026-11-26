@@ -5,3 +5,7 @@ body {
 #map {
   height: 100vh;
 }
+
+.hidden {
+  display: none;
+}
