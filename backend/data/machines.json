@@ -1,0 +1,118 @@
+[
+  {
+    "id": "apollo11-lrrr",
+    "world": "moon",
+    "name_es": "Retrorreflector láser del Apolo 11",
+    "name_en": "Apollo 11 Laser Retroreflector",
+    "icon": "🪞",
+    "lat": 0.674,
+    "lng": 23.473,
+    "photo_url": "https://images-assets.nasa.gov/image/as11-40-5942/as11-40-5942~large.jpg",
+    "photo_credit": "NASA (AS11-40-5942)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloland.html",
+    "scenes": [
+      { "es": "¡Hola! Soy un espejo hecho de 100 prismas pequeños. Los astronautas del Apolo 11 me instalaron en la Luna en 1969.",
+        "en": "Hi! I'm a mirror made of 100 small prisms. Apollo 11 astronauts set me up on the Moon in 1969." },
+      { "es": "Cuando un láser desde la Tierra me alcanza, devuelvo la luz justo al lugar de donde vino.",
+        "en": "When a laser from Earth hits me, I send the light straight back." },
+      { "es": "Gracias a mí, los científicos supieron que la Luna se aleja de la Tierra unos 3,8 cm por año.",
+        "en": "Thanks to me, scientists learned the Moon moves away from Earth about 3.8 cm every year." }
+    ],
+    "question": {
+      "es": "¿Cuánto se aleja la Luna de la Tierra cada año?",
+      "en": "How much does the Moon move away from Earth every year?",
+      "options": [
+        { "es": "Unos 3,8 cm", "en": "About 3.8 cm", "correct": true },
+        { "es": "Unos 3,8 metros", "en": "About 3.8 meters", "correct": false },
+        { "es": "Unos 38 km", "en": "About 38 km", "correct": false }
+      ]
+    }
+  },
+  {
+    "id": "apollo15-lrv",
+    "world": "moon",
+    "name_es": "Rover lunar del Apolo 15",
+    "name_en": "Apollo 15 Lunar Roving Vehicle",
+    "icon": "🚙",
+    "lat": 26.132,
+    "lng": 3.64,
+    "photo_url": "https://images-assets.nasa.gov/image/as15-86-11603/as15-86-11603~large.jpg",
+    "photo_credit": "NASA (AS15-86-11603)",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloland.html",
+    "scenes": [
+      { "es": "Soy el primer auto que se manejó en la Luna, en 1971.",
+        "en": "I'm the first car ever driven on the Moon, in 1971." },
+      { "es": "Me plegaron como una valija para llevarme hasta allá.",
+        "en": "They folded me up like a suitcase to fly me there." },
+      { "es": "Los astronautas me manejaron 27,8 km. Sigo estacionado en Hadley.",
+        "en": "Astronauts drove me 27.8 km. I'm still parked at Hadley." }
+    ],
+    "question": {
+      "es": "¿Cuántos kilómetros recorrí en la Luna?",
+      "en": "How far did I drive on the Moon?",
+      "options": [
+        { "es": "3 km", "en": "3 km", "correct": false },
+        { "es": "27,8 km", "en": "27.8 km", "correct": true },
+        { "es": "300 km", "en": "300 km", "correct": false }
+      ]
+    }
+  },
+  {
+    "id": "opportunity",
+    "world": "mars",
+    "name_es": "Rover Opportunity",
+    "name_en": "Opportunity Rover",
+    "icon": "🤖",
+    "lat": -2.335,
+    "lng": -5.348,
+    "photo_url": "https://images-assets.nasa.gov/image/PIA17759/PIA17759~large.jpg",
+    "photo_credit": "NASA/JPL-Caltech (PIA17759)",
+    "source_url": "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/",
+    "scenes": [
+      { "es": "Llegué a Marte en 2004. Me dijeron: solo tenés que durar 90 días.",
+        "en": "I landed on Mars in 2004. They told me: you only need to last 90 days." },
+      { "es": "¡Seguí explorando durante más de 14 años!",
+        "en": "I kept exploring for more than 14 years!" },
+      { "es": "En 2018, una tormenta de polvo gigante tapó el Sol y me quedé en silencio para siempre.",
+        "en": "In 2018 a giant dust storm covered the Sun, and I fell silent forever." }
+    ],
+    "question": {
+      "es": "¿Cuánto tiempo tenía que funcionar en Marte?",
+      "en": "How long was I supposed to work on Mars?",
+      "options": [
+        { "es": "90 días", "en": "90 days", "correct": true },
+        { "es": "14 años", "en": "14 years", "correct": false },
+        { "es": "1 año", "en": "1 year", "correct": false }
+      ]
+    }
+  },
+  {
+    "id": "ingenuity",
+    "world": "mars",
+    "name_es": "Helicóptero Ingenuity",
+    "name_en": "Ingenuity Mars Helicopter",
+    "icon": "🚁",
+    "lat": 18.44,
+    "lng": 77.45,
+    "photo_url": "https://images-assets.nasa.gov/image/PIA24648/PIA24648~orig.jpg",
+    "photo_credit": "NASA/JPL-Caltech (PIA24648)",
+    "source_url": "https://www.jpl.nasa.gov/images/pia26237-ingenuity-at-valinor-hills/",
+    "scenes": [
+      { "es": "Soy Ingenuity, un helicóptero de 1,8 kg. En 2021 hice el primer vuelo propulsado en otro planeta.",
+        "en": "I'm Ingenuity, a 1.8 kg helicopter. In 2021 I made the first powered flight on another planet." },
+      { "es": "Me planearon para 5 vuelos. ¡Hice 72!",
+        "en": "I was planned for 5 flights. I made 72!" },
+      { "es": "En 2024 se dañaron mis hélices y me quedé para siempre en el cráter Jezero.",
+        "en": "In 2024 my blades were damaged, and I stayed in Jezero Crater for good." }
+    ],
+    "question": {
+      "es": "¿Cuántos vuelos hice en Marte?",
+      "en": "How many flights did I make on Mars?",
+      "options": [
+        { "es": "5", "en": "5", "correct": false },
+        { "es": "72", "en": "72", "correct": true },
+        { "es": "500", "en": "500", "correct": false }
+      ]
+    }
+  }
+]
